@@ -1,0 +1,7 @@
+Shake Test Notes
+
+The MPU6500 IMU was tested by shaking the project while the OLED displayed a drawing.
+The double-shake detection feature cleared the display when two shakes occurred within the two-second time window.
+
+The minShakeGap value of 300 ms helped prevent one physical shake from being counted multiple times.
+The shakeThreshold value of 1.5 was used to avoid accidental clears during normal handling.

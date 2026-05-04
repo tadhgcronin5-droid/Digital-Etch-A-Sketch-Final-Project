@@ -1,0 +1,7 @@
+Potentiometer Test Notes
+
+The X-axis potentiometer was connected to A0 and controlled horizontal cursor movement.
+The Y-axis potentiometer was connected to A1 and controlled vertical cursor movement.
+
+Testing showed that both potentiometers moved the cursor correctly after the axes were flipped in software.
+The readSmooth() function reduced small jitter in the drawing position by averaging eight analog readings.
